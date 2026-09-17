@@ -1,0 +1,13 @@
+# Scraping
+selenium==4.25.0
+webdriver-manager==4.0.2
+beautifulsoup4==4.12.3
+lxml==5.3.0
+requests==2.32.3
+
+# Datos
+pandas==2.2.3
+
+# Notebook
+jupyter==1.1.1
+ipykernel==6.29.5
