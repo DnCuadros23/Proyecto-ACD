@@ -1,4 +1,4 @@
-# web-scraping-ACD
+# Proyecto-ACD
 
 Proyecto EC1 de Web Scraping — curso Análisis Computacional de Datos (DS3021).
 Extracción del catálogo de [PlazaVea](https://www.plazavea.com.pe/) con Selenium +
@@ -7,9 +7,9 @@ BeautifulSoup para construir un dataset de precios, descuentos y categorías de 
 ## Estructura del proyecto
 
 ```
-web-scraping-ACD/
+Proyecto-ACD/
 ├── notebooks/
-│   └── 01_scraping_plazavea.ipynb   # P1-P3: reconocimiento, motor y extracción masiva
+│   └── Proyecto_.ipynb   # P1-P3: reconocimiento, motor y extracción masiva
 ├── data/
 │   ├── raw/                         # CSV crudos (parciales por categoría + consolidado)
 │   └── processed/                   # dataset limpio (P4)
@@ -30,15 +30,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Con el entorno activado, abrir `notebooks/01_scraping_plazavea.ipynb` en Jupyter o VS Code.
+Con el entorno activado, abrir `notebooks/Proyecto_.ipynb` en Jupyter o VS Code.
 Los CSV se guardan en `data/raw/` con rutas relativas al propio notebook (`../data/raw`),
 así que hay que ejecutarlo desde `notebooks/` y no mover el archivo fuera de esa carpeta.
 
 ## Integrantes
 
-- Cuadros Villegas, Denilson Jermai
-- Apellidos, Nombres —
-- Apellidos, Nombres —
-- Apellidos, Nombres —
-- Apellidos, Nombres —
-- Apellidos, Nombres —
+- Denilson Jermai Cuadros Villegas 202510232
+- Enrique Eusebio Torres Chafloque 202510601
+- Leo Alexander Torres Ccencho 202410078
+- Valeria Bazán Meléndez 202410443
+- Lucas Armando Aliaga Mena 201810550
