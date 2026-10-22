@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .DS_Store
+
+# Scraping intermedio: archivos parciales por categoria (no es el dataset final)
+data/raw/parcial_*.csv
