@@ -1,0 +1,277 @@
+marca,n_productos,es_marca_propia,validado,fuente
+BELL'S,111,True,True,https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026)
+PLAZA VEA,106,True,True,"Marca con el nombre del propio retailer; no figura en /marcas-propias; criterio de P1, 23/10/2026"
+GLORIA,96,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+LAIVE,50,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SAN FERNANDO,43,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BRAEDT,31,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BIMBO,28,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+REDONDOS,27,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+EL BUEN CORTE,25,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BELL'S FRESCOS,23,True,True,"Línea de la marca propia BELL'S (productos titulados BELL'S); criterio de P1, 23/10/2026"
+UNIVERSE NUTRITION,23,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+COCA COLA,21,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+LA FLORENCIA,21,True,True,https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026)
+GENÉRICO,21,False,True,Productos de vendedores terceros (21 de 21 verificados; ver docs/evidencia_vendedor.csv)
+D'ONOFRIO,20,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+UNIVERSAL,18,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+CASA EUROPA,18,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SAN LUIS,16,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+CIELO,16,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+OREO,16,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+OREGON FOODS,16,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+OTTO KUNZ,15,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+AVINKA,14,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+AMARAS,13,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+VAKIMU,13,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FRIGON,12,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FRUGOS,12,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+UNIÓN,12,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+MC COLINS,11,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+ÁNGEL,11,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NATURE'S HEART,10,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+ALTOMAYO,10,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NESCAFÉ,10,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SIEGEN,9,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+HEY FIT,9,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+DON VITTORIO,9,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+INCA KOLA,9,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NATURAL SLIM,9,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+ARTISAN,8,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+DANLAC,8,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+UMSHA,8,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+DELICE,8,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+HEAD & SHOULDERS,8,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+EL FRUTERO,7,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+MARINELA,7,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+CAFETAL,7,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NESTLÉ,7,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+COSTEÑO,7,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+MOLITALIA,7,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+RITZ,7,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SIVIERO MARIA,7,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BONLÉ,6,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+QUAKER,6,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SHAKRA,6,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+LOA,6,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SAN MATEO,6,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+VERDE PURO,6,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+DON ITALO,5,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+PRACTIFOOD,5,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SEAFROST,5,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SUEROX,5,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SADIA,5,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+DON MAMINO,5,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+PRIMOR,5,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SALCHICHERÍA SUIZA,5,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+COSTA,5,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+AMARU,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+PLUSA,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FIELD,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+EUCERIN,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NERDS,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+XTRALIFE NATURAL PRODUCTS,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FRANUÍ,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NORDIC NATURALS,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SALCHICHERÍA ALEMANA,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+AVIKO,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+LA CALERA,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+HORNIMANS,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+MENTOS,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+CARLYLE,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+KARINTO,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+AMBROSOLI,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+WINTER'S,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+EL CEDRO,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+MILO,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NICOLINI,4,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+KELLOGG S,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+UMIFOODS,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SELLO ROJO,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+DEMOLITOR,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+ISDIN,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+3 OSITOS,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SAN CARLOS,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+EMERGENCY KIT PERÚ,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+ECCO,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BON BEEF,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+KIRMA,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+LA REYNA DE OXAPAMPA,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+PHILADELPHIA,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SBELT,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+ALACENA,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+GRANO DE ORO,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+IDEAL,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BLANCA FLOR,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+CAMPOMAR,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+GATORADE,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+JUAN VALDEZ,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SANTA PRISCILA,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SPRITE,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+TIC TAC,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+ROYAL,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+DUMAN,3,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+CORTE GAUCHO,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NESCAFÉ DOLCE GUSTO,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+B&D,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+PESCATORE,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+MY MOCHI,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+LA PURITA,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+MI TIERRA,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SPITZE,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FROZEN,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+WAWASANA,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+CALMANO,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+PACCU,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SANTA CATALINA,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+PISCIS,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+HERSHEYS,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+DORITOS,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NESQUIK,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BEM BRASIL,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+ECOFRESH,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+CASA VERDE,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SIBARITA,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FARAON,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+HORBAACH,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FLEXACIL ULTRA,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+DILYTE,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FANTA,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+CLIGHT,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+PYC,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SPORADE,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+TAMPICO,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+ARCOR,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+EVERVESS,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FLEXFOOD,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+DURYEA,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+ITALPIZZA,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SCHWEPPES,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+DELI FREEZE,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FORNO DE MINAS,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+AJINOMEN,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FLORIDA,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+VICTORIA,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BELL'S SELECCIÓN,2,True,True,"Línea de la marca propia BELL'S: empaque con logo Bell's y título BELL'S SELECCIÓN en plazavea.com.pe; criterio de P1, 23/10/2026"
+DULFINA,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NATROL,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+MASON NATURAL,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+ANTIGUA TABERNA QUEIROLO,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+KIT KAT,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+LEA,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SKITTLES,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BIODERMA,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+AZUL MARINO,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+ZUBZERO,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SASARU IMPORTACIONES,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+KRAFT,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+POMAROLA,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NUTELLA,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+MISTER POPS,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+EMSAL,2,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+HÄAGEN DAZS,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+CORN FLAKES,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+PRESIDENT,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+IL PASTIFICIO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BADIA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+TOÑA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NEGUSA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+TÍA ROSA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SPREAD,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BRAVO CREM,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BAUDUCCO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+P.A.N.,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SAN SEN,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FAVORITA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FRIO RICO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SUIZA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+CHOCOLISTO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FANNY,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+HAPPY,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+EL CORTE INGLÉS,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SUNKA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+KIMBO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+LIPTON,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+EN LINEA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+VITA PLUSS,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SOL DEL CUSCO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+COMPASS,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NESTLE FITNESS,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FORTE GOLPE,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+CHUGUR,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NUSAPURE,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+DYFFERENT,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+PICARAS,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+OLE OLE,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NABISCO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+VICTORIA TENTACION,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+INKA CHIPS,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+POWERADE,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+PILSEN,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+GUARANÁ,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+EL ENEMIGO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NATURALE,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SEVEN UP,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+PEPSI,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+ZUKO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SOCOSANI,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SELLO DE ORO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+GALLINAS LIBRES,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+VICTORIA GLACITAS,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+VALLENORTE,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BAZO VELARDE,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+MOROCHAS,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+CHOCOBUM,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+MINICHOCOBUM,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+LIBBY S,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+CHEESE TRIS,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+LAKANTO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FRITO LAY,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+2 BANDERAS,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BARCELONA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SAN JORGE,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SAO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+GRAN CHALAN,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+CARTAVIO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+DERBY,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+PAISANA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+AJINOSILLAO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+MANTY,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+TONADITA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BUENASO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+LEVEL PRO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+MUTANT,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+IMPERIAL,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+MANANTIALES,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+GUVA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+DEL ANDE,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+VIVA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+LA CASERITA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+FINE FOODS,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+VADIMAR,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+PESCANOVA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+AQUA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+PANAMEI,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+ZEDINA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BIG RANCH,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+LA GRANJA DEL CUY,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+OPTIMUM NUTRITION,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BON O BON,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+VIGOR,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BIOSIL,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+EOS,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+OWAWA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+URIAGE,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NINET,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+HYDRABIO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SECOS,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+BABYMA,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+LA ROCHE-POSAY,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+SAMI STORE,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+NUTRICOST,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+KEVIN LEVRONE,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+GLYCONORM,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+VITALITOWN,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+QNT,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+APPLIED NUTRITION,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
+TONITTO,1,False,True,No figura en https://www.plazavea.com.pe/marcas-propias (consultado 23/10/2026); criterio de P1
