@@ -42,10 +42,13 @@ así que hay que ejecutarlo desde `notebooks/` y no mover el archivo fuera de es
 - Valeria Bazán Meléndez 202410443
 - Lucas Armando Aliaga Mena 201810550
 
-## Parte II — Preprocesamiento, features y pipeline
+## Parte II — Preprocesamiento, features y análisis
 
-La Parte II se reparte en 5 partes (P1-P5). El código reutilizable de cada parte vive en `src/`
-y un solo comando reproduce el dataset final desde cero:
+La Parte II se reparte en 5 partes (P1-P5). El trabajo de P1, P2 y P3 ya está listo y vive en
+**un solo notebook**, `notebooks/Proyecto_Final.ipynb`, en ese orden — así se evita tener tres
+archivos sueltos y cada quien sigue viendo claramente dónde empieza y termina su parte. El
+código reutilizable que ese notebook importa vive en `src/`, y es el mismo que usa
+`run_pipeline.py`, así que el resultado de ambos coincide siempre:
 
 ```
 Proyecto-ACD/
@@ -56,19 +59,18 @@ Proyecto-ACD/
 │   └── features.py                        # ingeniería de características (P2 + P3)
 ├── notebooks/
 │   ├── Proyecto_.ipynb                    # Parte I: scraping + limpieza inicial
-│   ├── 02_preprocesamiento.ipynb          # P1
-│   ├── P2.ipynb                           # P2 (ingeniería de características)
-│   └── 04_analisis_descuentos_ahorro.ipynb  # P3: objetivos 3-4, figuras, pipeline
+│   └── Proyecto_Final.ipynb               # Parte II completa: P1 -> P2 -> P3, en un solo archivo
 ├── data/
 │   ├── raw/                               # crudo del scraping
-│   ├── processed/                         # dataset limpio e inicial + dataset final de P2
+│   ├── processed/                         # dataset limpio e inicial (Parte I)
 │   ├── interim/                           # dataset preprocesado (P1)
-│   ├── final/                             # dataset final regenerado por run_pipeline.py
+│   ├── final/                             # dataset final (P2 + P3), también lo regenera run_pipeline.py
 │   ├── reference/                         # dim_categoria.csv, dim_marca.csv
 │   └── plazavea.db                        # mismo dataset final, en SQLite
 └── docs/
     ├── bitacora_decisiones.csv            # cada decisión técnica, con su justificación
     ├── cifras_oficiales.csv               # cifras que se citan en el informe
+    ├── diapositivas_p3.md                 # contenido de las diapositivas de P3
     └── figures/                           # f3_*.png (P3), f4_*.png (P4)
 ```
 
@@ -76,17 +78,14 @@ Proyecto-ACD/
 
 ```bash
 pip install -r requirements.txt
+jupyter nbconvert --to notebook --execute --inplace notebooks/Proyecto_Final.ipynb
+# o, de forma equivalente y más rápida (sin abrir Jupyter):
 python run_pipeline.py            # usa el crudo ya guardado en data/raw/
 python run_pipeline.py --scrape   # antes, vuelve a extraer el catálogo (tarda horas)
 ```
 
-`run_pipeline.py` encadena `src/preprocessing.py` (limpieza + P1) y `src/features.py` (P2 + dos
-variables del contrato de datos que el dataset de P2 todavía no incluye: `oferta_significativa`
-y `segmento_precio`, necesarias para el análisis de P3). Verifica los requisitos de calidad de
-la rúbrica antes de guardar y deja el resultado en `data/final/plazavea_final.csv` y en
-`data/plazavea.db` (tablas `productos`, `dim_categoria`, `dim_marca`).
-
-**Nota sobre rutas:** el notebook `P2.ipynb` guarda su propio resultado en
-`data/processed/plazavea_final.csv` (no en `data/final/`, como se había acordado en el contrato
-de datos del equipo); por eso conviven dos archivos de dataset final. `data/final/` es la salida
-de `run_pipeline.py` y la ruta que describe este README.
+Las dos vías llegan al mismo resultado porque comparten el código de `src/`: el notebook lo
+explica paso a paso con gráficos e interpretación (para leer y para el informe); el pipeline lo
+corre de punta a punta en segundos (para verificar reproducibilidad y regenerar
+`data/plazavea.db`). `run_pipeline.py` verifica los requisitos de calidad de la rúbrica antes de
+guardar.
