@@ -1,9 +1,6 @@
-"""Ingeniería de características (P2 + P3): contenido y precio unitario, rango de descuento,
-y dos variables del contrato de datos que el dataset de P2 todavía no incluye.
-
-Las tres primeras funciones reproducen notebooks/P2.ipynb. `calcular_oferta_significativa` y
-`calcular_segmento_precio` no vienen en ese notebook; se agregan aquí porque el análisis de P3
-(objetivo 4, segmentación) las necesita y ya estaban definidas en el contrato de datos del equipo.
+"""Ingeniería de características: contenido y precio unitario, rango de descuento, y dos
+variables del contrato de datos que el análisis de descuentos y ahorro necesita
+(`calcular_oferta_significativa`, `calcular_segmento_precio`).
 """
 import re
 
@@ -53,7 +50,7 @@ def clasificar_descuento(descuento_pct):
 
 def calcular_oferta_significativa(df):
     """`oferta_significativa`: descuento_pct >= 10 y ahorro_soles >= 2 (umbral acordado en el
-    contrato de datos). No viene en el dataset de P2; la necesita el objetivo 4 de P3."""
+    contrato de datos), para separar las ofertas reales de las simbólicas."""
     df = df.copy()
     df["oferta_significativa"] = (df["descuento_pct"] >= 10) & (df["ahorro_soles"] >= 2)
     return df
@@ -61,7 +58,7 @@ def calcular_oferta_significativa(df):
 
 def calcular_segmento_precio(df):
     """`segmento_precio`: terciles de precio_venta dentro de cada categoría (Económico/Medio/
-    Premium). Tampoco viene en el dataset de P2; la necesita la segmentación del objetivo 4."""
+    Premium), para comparar si los productos más caros se rebajan más o menos."""
     df = df.copy()
 
     def en_terciles(serie):
@@ -78,7 +75,8 @@ def calcular_segmento_precio(df):
 
 
 def crear_features(df):
-    """Encadena los pasos de P2 y agrega oferta_significativa + segmento_precio (ver arriba)."""
+    """Encadena los pasos de ingeniería de características y agrega oferta_significativa +
+    segmento_precio (ver arriba)."""
     df = df.copy()
     df[["cantidad_base", "tipo_unidad_medida", "precio_unitario_normalizado"]] = df.apply(
         extraer_contenido_y_precio, axis=1
@@ -88,5 +86,5 @@ def crear_features(df):
     df = calcular_segmento_precio(df)
 
     faltan = [c for c in COLUMNAS_P2 if c not in df.columns]
-    assert not faltan, f"faltan columnas del contrato de datos (P2): {faltan}"
+    assert not faltan, f"faltan columnas del contrato de datos: {faltan}"
     return df

@@ -1,10 +1,10 @@
-"""Preprocesamiento del dataset (P1): limpieza de marcas, outliers de precio, integración con
-las tablas de referencia del equipo y transformación de precio_venta.
+"""Preprocesamiento del dataset: limpieza de marcas, outliers de precio, integración con las
+tablas de referencia del equipo y transformación de precio_venta.
 
-Reproduce en funciones reutilizables la lógica de notebooks/02_preprocesamiento.ipynb, para que
-run_pipeline.py pueda regenerar el dataset preprocesado sin volver a correr el notebook completo.
-Las decisiones (qué se hizo y por qué) están documentadas ahí y en docs/bitacora_decisiones.csv;
-aquí solo queda el código.
+Reproduce en funciones reutilizables la lógica del notebook, para que run_pipeline.py pueda
+regenerar el dataset preprocesado sin volver a correr el notebook completo. Las decisiones (qué
+se hizo y por qué) están documentadas en notebooks/Proyecto_Final.ipynb y en
+docs/bitacora_decisiones.csv; aquí solo queda el código.
 """
 import re
 import unicodedata
@@ -131,7 +131,7 @@ def transformar_precio(df):
 
 
 def preprocesar(df_inicial, dim_categoria, dim_marca):
-    """Encadena los pasos de P1 y devuelve el dataset preprocesado con las 5 columnas del
+    """Encadena los pasos de preprocesamiento y devuelve el dataset con las 5 columnas del
     contrato de datos (es_outlier_precio, precio_venta_log, macro_grupo, es_marca_propia,
     marca_agrupada), sin cambiar el número de filas."""
     df = unificar_marcas(df_inicial)
@@ -141,6 +141,6 @@ def preprocesar(df_inicial, dim_categoria, dim_marca):
     df = transformar_precio(df)
 
     faltan = [c for c in COLUMNAS_P1 if c not in df.columns]
-    assert not faltan, f"faltan columnas del contrato de datos (P1): {faltan}"
+    assert not faltan, f"faltan columnas del contrato de datos: {faltan}"
     assert len(df) == len(df_inicial), "el preprocesamiento cambió el número de filas"
     return df

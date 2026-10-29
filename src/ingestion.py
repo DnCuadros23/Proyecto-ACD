@@ -1,4 +1,4 @@
-"""Extracción del catálogo de PlazaVea (P3): el scraper de la Parte I (notebooks/Proyecto_.ipynb,
+"""Extracción del catálogo de PlazaVea: el scraper de la Parte I (notebooks/Proyecto_.ipynb,
 secciones 1-10) empaquetado como función, para que run_pipeline.py lo pueda invocar con
 `--scrape`. Usa Selenium para renderizar el catálogo (se arma con JavaScript) y BeautifulSoup
 para parsear el HTML resultante; recorre cada categoría por paginación real (`?page=N`), no por

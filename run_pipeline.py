@@ -5,13 +5,12 @@ Un solo comando reproduce el dataset final desde el crudo:
     python run_pipeline.py              # usa el crudo más reciente en data/raw/
     python run_pipeline.py --scrape     # antes, vuelve a extraer el catálogo (tarda horas)
 
-Encadena las funciones de cada parte del equipo: limpieza y preprocesamiento (P1,
-src/preprocessing.py), ingeniería de características (P2 + P3, src/features.py) y, si se pide,
-la extracción del catálogo (P3, src/ingestion.py). Verifica los requisitos de calidad de la
-rúbrica (más de 1000 filas, mínimo 6 atributos, máximo 10 % de nulos por columna, sin
-duplicados por url_producto) antes de guardar, y deja el resultado en dos formatos: CSV
-(data/final/plazavea_final.csv) y una base SQLite (data/plazavea.db) con las tablas productos,
-dim_categoria y dim_marca.
+Encadena limpieza y preprocesamiento (src/preprocessing.py), ingeniería de características
+(src/features.py) y, si se pide, la extracción del catálogo (src/ingestion.py). Verifica los
+requisitos de calidad de la rúbrica (más de 1000 filas, mínimo 6 atributos, máximo 10 % de
+nulos por columna, sin duplicados por url_producto) antes de guardar, y deja el resultado en
+dos formatos: CSV (data/final/plazavea_final.csv) y una base SQLite (data/plazavea.db) con las
+tablas productos, dim_categoria y dim_marca.
 """
 import argparse
 import sqlite3
@@ -45,7 +44,7 @@ def cargar_tablas_referencia():
     return dim_categoria, dim_marca
 
 
-# cantidad_base/precio_unitario_normalizado dependen de que el regex de P2 reconozca el
+# cantidad_base/precio_unitario_normalizado dependen de que el regex reconozca el
 # contenido en el nombre del producto; en productos a granel o con presentaciones atípicas no
 # hay match y quedan en null. El propio contrato de datos del equipo anticipaba este caso
 # ("si queda bajo 90 %, documentarlo como limitación"), así que se reportan aparte en vez de
@@ -97,11 +96,11 @@ def main():
     print("1/4 · limpiando el crudo...")
     df_limpio = limpiar(cargar_crudo_mas_reciente())
 
-    print("2/4 · preprocesando (P1: outliers, referencias, reducción, transformación)...")
+    print("2/4 · preprocesando (outliers, referencias, reducción, transformación)...")
     dim_categoria, dim_marca = cargar_tablas_referencia()
     df_preprocesado = preprocesar(df_limpio, dim_categoria, dim_marca[["marca", "es_marca_propia"]])
 
-    print("3/4 · creando variables derivadas (P2 + P3)...")
+    print("3/4 · creando variables derivadas...")
     df_final = crear_features(df_preprocesado)
 
     checks = verificar_calidad(df_final, "dataset final")

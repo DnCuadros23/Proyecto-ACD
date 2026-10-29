@@ -44,34 +44,34 @@ así que hay que ejecutarlo desde `notebooks/` y no mover el archivo fuera de es
 
 ## Parte II — Preprocesamiento, features y análisis
 
-La Parte II se reparte en 5 partes (P1-P5). El trabajo de P1, P2 y P3 ya está listo y vive en
-**un solo notebook**, `notebooks/Proyecto_Final.ipynb`, en ese orden — así se evita tener tres
-archivos sueltos y cada quien sigue viendo claramente dónde empieza y termina su parte. El
-código reutilizable que ese notebook importa vive en `src/`, y es el mismo que usa
-`run_pipeline.py`, así que el resultado de ambos coincide siempre:
+El preprocesamiento, la ingeniería de características y el análisis de descuentos y ahorro
+viven en **un solo notebook**, `notebooks/Proyecto_Final.ipynb`, en el orden en que se fue
+trabajando — así se evita tener archivos sueltos y todo se lee de corrido. El código reutilizable
+que ese notebook importa vive en `src/`, y es el mismo que usa `run_pipeline.py`, así que el
+resultado de ambos coincide siempre:
 
 ```
 Proyecto-ACD/
 ├── run_pipeline.py                        # pipeline completo: crudo -> final + SQLite
 ├── src/
-│   ├── ingestion.py                       # extracción del catálogo (P3), opcional (--scrape)
-│   ├── preprocessing.py                   # limpieza y preprocesamiento (P1)
-│   └── features.py                        # ingeniería de características (P2 + P3)
+│   ├── ingestion.py                       # extracción del catálogo, opcional (--scrape)
+│   ├── preprocessing.py                   # limpieza y preprocesamiento
+│   └── features.py                        # ingeniería de características
 ├── notebooks/
 │   ├── Proyecto_.ipynb                    # Parte I: scraping + limpieza inicial
-│   └── Proyecto_Final.ipynb               # Parte II completa: P1 -> P2 -> P3, en un solo archivo
+│   └── Proyecto_Final.ipynb               # Parte II completa, en un solo archivo
 ├── data/
 │   ├── raw/                               # crudo del scraping
 │   ├── processed/                         # dataset limpio e inicial (Parte I)
-│   ├── interim/                           # dataset preprocesado (P1)
-│   ├── final/                             # dataset final (P2 + P3), también lo regenera run_pipeline.py
+│   ├── interim/                           # dataset preprocesado
+│   ├── final/                             # dataset final, también lo regenera run_pipeline.py
 │   ├── reference/                         # dim_categoria.csv, dim_marca.csv
 │   └── plazavea.db                        # mismo dataset final, en SQLite
 └── docs/
     ├── bitacora_decisiones.csv            # cada decisión técnica, con su justificación
     ├── cifras_oficiales.csv               # cifras que se citan en el informe
-    ├── diapositivas_p3.md                 # contenido de las diapositivas de P3
-    └── figures/                           # f3_*.png (P3), f4_*.png (P4)
+    ├── diapositivas_p3.md                 # contenido para las diapositivas del análisis
+    └── figures/                           # figuras del análisis de descuentos y ahorro
 ```
 
 ### Reproducir el proyecto

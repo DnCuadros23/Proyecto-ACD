@@ -1,7 +1,7 @@
-# Diapositivas de P3 (2,5 min) — descuentos y ahorro
+# Diapositivas: descuentos y ahorro (2,5 min)
 
-Contenido para las 2-3 diapositivas de P3 en `docs/presentacion_parte2.pptx`. Una idea por
-diapositiva, el gráfico ocupa la mayor parte y el texto es solo el titular + la cifra.
+Contenido para 2-3 diapositivas en `docs/presentacion_parte2.pptx`. Una idea por diapositiva, el
+gráfico ocupa la mayor parte y el texto es solo el titular + la cifra.
 
 ---
 
@@ -33,9 +33,9 @@ más de 30 veces el del resto del catálogo junto (S/ 0,82).
 
 **Titular:** Un solo comando regenera el dataset final desde el crudo.
 
-**Diagrama:** `docs/pipeline.png` (lo diseña P5, sección 5 del informe)
+**Diagrama:** `docs/pipeline.png` (sección de diseño del pipeline en el informe)
 
 **Texto:**
-- `python run_pipeline.py` encadena limpieza (P1) → features (P2+P3) → verificación de calidad
-  → `data/final/plazavea_final.csv` + `data/plazavea.db`
+- `python run_pipeline.py` encadena limpieza → ingeniería de características → verificación de
+  calidad → `data/final/plazavea_final.csv` + `data/plazavea.db`
 - `--scrape` vuelve a extraer el catálogo si hace falta (tarda horas, por eso es opcional)
