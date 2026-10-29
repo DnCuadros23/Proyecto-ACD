@@ -110,7 +110,7 @@ def main():
     print("4/4 · guardando el resultado...")
     (DATA / "final").mkdir(parents=True, exist_ok=True)
     ruta_csv = DATA / "final" / "plazavea_final.csv"
-    df_final.to_csv(ruta_csv, index=False, encoding="utf-8")
+    df_final.to_csv(ruta_csv, index=False, encoding="utf-8", lineterminator="\n")
     print(f"  CSV    -> {ruta_csv}  ({df_final.shape[0]} filas, {df_final.shape[1]} columnas)")
 
     ruta_db = DATA / "plazavea.db"
