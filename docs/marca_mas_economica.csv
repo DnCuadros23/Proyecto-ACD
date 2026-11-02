@@ -1,0 +1,51 @@
+grupo_comparable,categoria,tipo_producto,unidad,n_productos,n_marcas,marca_mas_economica,es_marca_propia,precio_unitario_economica,marca_mas_cara,precio_unitario_cara,mediana_grupo,ahorro_vs_mediana_pct,veces_mas_cara
+Quesos y Fiambres | queso | 100g,Quesos y Fiambres,queso,100g,46,10,BELL'S FRESCOS,True,4.3612,KRAFT,16.6046,5.8833,25.9,3.8
+Bebidas | gaseosa | 100ml,Bebidas,gaseosa,100ml,39,10,GUARANÁ,False,0.2167,INCA KOLA,0.8867,0.66,67.2,4.1
+Bebidas | agua | 100ml,Bebidas,agua,100ml,34,7,BELL'S,True,0.076,SOCOSANI,2.18,0.3817,80.1,28.7
+Bebidas | bebida | 100ml,Bebidas,bebida,100ml,23,3,GLORIA,False,0.4,SUEROX,3.0952,0.4,0.0,7.7
+Desayunos | café | 100g,Desayunos,café,100g,21,6,SELLO ROJO,False,6.3412,NESCAFÉ,19.415,15.8235,59.9,3.1
+Abarrotes | galletas | unidad,Abarrotes,galletas,unidad,21,7,SAN JORGE,False,0.5571,NABISCO,1.3333,0.9167,39.2,2.4
+Desayunos | cereal | 100g,Desayunos,cereal,100g,17,6,ÁNGEL,False,2.3684,NESTLÉ,4.261,3.6341,34.8,1.8
+Lácteos | yogurt | 100g,Lácteos,yogurt,100g,17,6,SBELT,False,0.6765,GLORIA,7.375,1.3021,48.0,10.9
+Quesos y Fiambres | jamón | 100g,Quesos y Fiambres,jamón,100g,17,6,SALCHICHERÍA ALEMANA,False,3.7941,CASA EUROPA,7.4416,5.9,35.7,2.0
+Panadería | pan | 100g,Panadería,pan,100g,17,6,PYC,False,1.6129,UNIÓN,2.4167,2.0169,20.0,1.5
+Panadería | gelatina | 100g,Panadería,gelatina,100g,16,4,UMSHA,False,2.3846,BELL'S,15.2632,3.8053,37.3,6.4
+Lácteos | leche | 100g,Lácteos,leche,100g,16,2,LAIVE,False,5.6154,GLORIA,5.8718,5.8718,4.4,1.0
+Lácteos | leche | 100ml,Lácteos,leche,100ml,15,4,SBELT,False,0.6554,LAIVE,2.1776,1.6625,60.6,3.3
+Congelados | helado | 100ml,Congelados,helado,100ml,14,6,BELL'S,True,0.8495,ZUBZERO,3.98,1.75,51.5,4.7
+Desayunos | avena | 100g,Desayunos,avena,100g,14,6,BELL'S,True,0.69,MI TIERRA,2.5,1.3167,47.6,3.6
+Lácteos | mantequilla | 100g,Lácteos,mantequilla,100g,13,5,TONADITA,False,4.95,PLUSA,7.65,5.2778,6.2,1.5
+Abarrotes | galletas | 100g,Abarrotes,galletas,100g,13,8,MOROCHAS,False,2.6111,RITZ,19.5,10.8571,76.0,7.5
+Congelados | nuggets | unidad,Congelados,nuggets,unidad,12,6,SAN FERNANDO,False,0.4084,FLEXFOOD,0.9917,0.5284,22.7,2.4
+Abarrotes | fideos | 100g,Abarrotes,fideos,100g,11,3,NICOLINI,False,0.6,DON VITTORIO,0.76,0.66,9.1,1.3
+Abarrotes | caramelos | 100g,Abarrotes,caramelos,100g,9,4,AMBROSOLI,False,2.5645,MENTOS,26.2857,18.125,85.9,10.2
+Congelados | hamburguesa | unidad,Congelados,hamburguesa,unidad,8,4,REDONDOS,False,0.8893,BON BEEF,13.725,3.2938,73.0,15.4
+Panadería | harina | 100g,Panadería,harina,100g,8,6,FAVORITA,False,0.45,GRANO DE ORO,0.75,0.6083,26.0,1.7
+Desayunos | mermelada | 100g,Desayunos,mermelada,100g,8,4,FANNY,False,1.7,BELL'S,2.195,1.7928,5.2,1.3
+Lácteos | huevos | unidad,Lácteos,huevos,unidad,8,4,LA CALERA,False,0.5833,GALLINAS LIBRES,1.2917,0.6117,4.6,2.2
+Lácteos | mezcla | 100g,Lácteos,mezcla,100g,7,3,BONLÉ,False,4.1458,IDEAL,4.7436,4.1458,0.0,1.1
+Abarrotes | arroz | 100g,Abarrotes,arroz,100g,7,4,PAISANA,False,0.358,FARAON,0.4485,0.438,18.3,1.3
+Panadería | pan | unidad,Panadería,pan,unidad,7,4,EL CEDRO,False,0.81,BIMBO,1.0625,0.8667,6.5,1.3
+Frutas y Verduras | lechuga | 100g,Frutas y Verduras,lechuga,100g,7,3,BELL'S,True,1.1633,VERDE PURO,1.945,1.85,37.1,1.7
+Desayunos | granola | 100g,Desayunos,granola,100g,6,3,BELL'S,True,2.1429,UNIÓN,5.5185,3.5875,40.3,2.6
+Quesos y Fiambres | jamonada | 100g,Quesos y Fiambres,jamonada,100g,6,5,LAIVE,False,2.3875,OTTO KUNZ,4.1056,2.8317,15.7,1.7
+Abarrotes | azúcar | 100g,Abarrotes,azúcar,100g,6,3,BELL'S,True,0.345,CARTAVIO,0.45,0.35,1.4,1.3
+Abarrotes | mayonesa | 100g,Abarrotes,mayonesa,100g,6,3,ALACENA,False,2.5895,LIBBY S,3.99,2.8844,10.2,1.5
+Abarrotes | aceite | 100ml,Abarrotes,aceite,100ml,6,3,BELL'S,True,0.6111,PRIMOR,0.9444,0.7889,22.5,1.5
+Carnes y Pescados | filete | 100g,Carnes y Pescados,filete,100g,6,5,SADIA,False,1.49,PISCIS,6.38,1.74,14.4,4.3
+Quesos y Fiambres | tocino | 100g,Quesos y Fiambres,tocino,100g,5,4,OTTO KUNZ,False,6.6834,BRAEDT,7.95,7.9,15.4,1.2
+Congelados | helado | unidad,Congelados,helado,unidad,5,4,BELL'S,True,0.4944,KIT KAT,4.16,3.3167,85.1,8.4
+Carnes y Pescados | porciones | 100g,Carnes y Pescados,porciones,100g,5,4,PISCIS,False,5.5,AQUA,9.9,6.58,16.4,1.8
+Quesos y Fiambres | salchicha | 100g,Quesos y Fiambres,salchicha,100g,5,4,SAN FERNANDO,False,2.08,OTTO KUNZ,5.68,3.2667,36.3,2.7
+Desayunos | cocoa | 100g,Desayunos,cocoa,100g,5,2,BELL'S,True,7.2667,WINTER'S,9.5834,9.1667,20.7,1.3
+Desayunos | cereal | unidad,Desayunos,cereal,unidad,5,2,COSTA,False,0.5167,ÁNGEL,0.74,0.5167,0.0,1.4
+Desayunos | manzanilla | unidad,Desayunos,manzanilla,unidad,5,3,BELL'S,True,0.0975,MC COLINS,0.1415,0.119,18.1,1.5
+Lácteos | bebida | 100ml,Lácteos,bebida,100ml,5,2,LAIVE,False,0.8171,NATURE'S HEART,0.9408,0.9408,13.1,1.2
+Panadería | canela | 100g,Panadería,canela,100g,5,3,BELL'S,True,15.0,SIBARITA,37.0,20.2822,26.0,2.5
+Quesos y Fiambres | chorizo | 100g,Quesos y Fiambres,chorizo,100g,5,3,CASA EUROPA,False,3.438,OREGON FOODS,4.975,4.125,16.7,1.4
+Congelados | ravioles | 100g,Congelados,ravioles,100g,4,2,BELL'S,True,1.69,DON ITALO,4.94,1.795,5.8,2.9
+Frutas y Verduras | espinaca | 100g,Frutas y Verduras,espinaca,100g,4,2,BELL'S,True,2.3095,VERDE PURO,3.2501,2.3556,2.0,1.4
+Desayunos | té | unidad,Desayunos,té,unidad,4,3,HORNIMANS,False,0.098,LIPTON,0.495,0.1415,30.7,5.1
+Desayunos | miel | 100g,Desayunos,miel,100g,4,2,LA FLORENCIA,True,4.75,LA REYNA DE OXAPAMPA,5.3317,5.1568,7.9,1.1
+Panadería | leche | 100g,Panadería,leche,100g,4,2,NESTLÉ,False,1.834,GLORIA,1.8884,1.8467,0.7,1.0
+Quesos y Fiambres | hot | 100g,Quesos y Fiambres,hot,100g,4,2,BRAEDT,False,2.1,SALCHICHERÍA SUIZA,2.45,2.275,7.7,1.2
