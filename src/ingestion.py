@@ -2,7 +2,7 @@
 secciones 1-10) empaquetado como función, para que run_pipeline.py lo pueda invocar con
 `--scrape`. Usa Selenium para renderizar el catálogo (se arma con JavaScript) y BeautifulSoup
 para parsear el HTML resultante; recorre cada categoría por paginación real (`?page=N`), no por
-scroll infinito, que tiene un techo fijo. Tarda varias horas en correr completo, así que no se
+scroll infinito, que tiene un techo fijo. La corrida del 22/09/2026 tomó unos 24 minutos, así que no se
 ejecuta por defecto.
 """
 import re
@@ -292,7 +292,7 @@ def scrapear_categoria(driver, url, categoria, max_productos=150, max_paginas=15
 def ejecutar_scraping(categorias=None, max_productos=150, headless=True, carpeta_salida="data/raw"):
     """Extrae todas las categorías y guarda un CSV parcial por categoría más el crudo
     consolidado y deduplicado (`plazavea_crudo_<timestamp>.csv`). Devuelve la ruta del crudo.
-    Tarda varias horas: solo se llama con `python run_pipeline.py --scrape`.
+    La corrida del 22/09/2026 tomó unos 24 minutos: solo se llama con `python run_pipeline.py --scrape`.
     """
     categorias = categorias or CATEGORIAS
     carpeta = Path(carpeta_salida)
