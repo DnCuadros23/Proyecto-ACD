@@ -3,7 +3,7 @@
 Un solo comando reproduce el dataset final desde el crudo:
 
     python run_pipeline.py              # usa el crudo más reciente en data/raw/
-    python run_pipeline.py --scrape     # antes, vuelve a extraer el catálogo (tarda horas)
+    python run_pipeline.py --scrape     # antes, vuelve a extraer el catálogo (unos 24 minutos en la corrida del 22/09/2026)
 
 Encadena limpieza y preprocesamiento (src/preprocessing.py), ingeniería de características
 (src/features.py) y, si se pide, la extracción del catálogo (src/ingestion.py). Verifica los
@@ -86,11 +86,11 @@ def guardar_sqlite(df, dim_categoria, dim_marca, ruta):
 
 def main():
     parser = argparse.ArgumentParser(description="Pipeline del Proyecto ACD — Parte II")
-    parser.add_argument("--scrape", action="store_true", help="vuelve a extraer el catálogo (tarda horas)")
+    parser.add_argument("--scrape", action="store_true", help="vuelve a extraer el catálogo (unos 24 minutos en la corrida del 22/09/2026)")
     args = parser.parse_args()
 
     if args.scrape:
-        print("extrayendo el catálogo de PlazaVea (puede tardar varias horas)...")
+        print("extrayendo el catálogo de PlazaVea (puede tardar varios minutos)...")
         ejecutar_scraping()
 
     print("1/4 · limpiando el crudo...")
