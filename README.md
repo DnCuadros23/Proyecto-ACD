@@ -1,22 +1,15 @@
 # Proyecto-ACD
 
-Proyecto EC1 de Web Scraping — curso Análisis Computacional de Datos (DS3021).
-Extracción del catálogo de [PlazaVea](https://www.plazavea.com.pe/) con Selenium +
-BeautifulSoup para construir un dataset de precios, descuentos y categorías de productos.
+Proyecto final del curso Análisis Computacional de Datos (DS3021). A partir del catálogo público
+de [PlazaVea](https://www.plazavea.com.pe/), extraído con Selenium y BeautifulSoup, construye un
+dataset de precios, descuentos y marcas para orientar decisiones de compra.
 
-## Estructura del proyecto
+- **Parte I:** extracción, limpieza inicial y diccionario (`notebooks/Proyecto_.ipynb`).
+- **Parte II:** preprocesamiento, ingeniería de características, análisis y pipeline
+  (`notebooks/Proyecto_Final.ipynb` y `run_pipeline.py`).
 
-```
-Proyecto-ACD/
-├── notebooks/
-│   └── Proyecto_.ipynb   # P1-P3: reconocimiento, motor y extracción masiva
-├── data/
-│   ├── raw/                         # CSV crudos (parciales por categoría + consolidado)
-│   └── processed/                   # dataset limpio (P4)
-├── docs/                            # informe, diccionario de datos (P5-P6)
-├── requirements.txt
-└── .gitignore
-```
+La estructura completa del repositorio y los pasos para reproducirlo están en la sección
+[Parte II](#parte-ii--preprocesamiento-features-y-análisis).
 
 ## Entorno virtual
 
@@ -30,9 +23,8 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Con el entorno activado, abrir `notebooks/Proyecto_.ipynb` en Jupyter o VS Code.
-Los CSV se guardan en `data/raw/` con rutas relativas al propio notebook (`../data/raw`),
-así que hay que ejecutarlo desde `notebooks/` y no mover el archivo fuera de esa carpeta.
+Con el entorno activado, abrir los notebooks de `notebooks/` en Jupyter o VS Code. Usan rutas
+relativas (`../data/...`), así que hay que ejecutarlos desde esa carpeta y no moverlos de ahí.
 
 ## Integrantes
 
@@ -84,7 +76,7 @@ pip install -r requirements.txt
 jupyter nbconvert --to notebook --execute --inplace notebooks/Proyecto_Final.ipynb
 # o, de forma equivalente y más rápida (sin abrir Jupyter):
 python run_pipeline.py            # usa el crudo ya guardado en data/raw/
-python run_pipeline.py --scrape   # antes, vuelve a extraer el catálogo (tarda horas)
+python run_pipeline.py --scrape   # antes, vuelve a extraer el catálogo (unos 24 minutos en la corrida del 22/09/2026)
 ```
 
 Las dos vías llegan al mismo resultado porque comparten el código de `src/`: el notebook lo
