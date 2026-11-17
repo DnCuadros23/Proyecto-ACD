@@ -69,8 +69,20 @@ Proyecto-ACD/
     ├── cifras_oficiales.csv               # cifras que se citan en el informe
     ├── evidencia_vendedor.csv             # verificación manual de la marca GENÉRICO
     ├── marca_mas_economica.csv            # marca más barata por tipo de producto
+    ├── pipeline.drawio                    # diagrama del pipeline (fuente editable en draw.io)
+    ├── pipeline.png                       # el mismo diagrama exportado
     └── figures/                           # figuras del análisis (f3_* descuentos, f4_* marcas y Oh!)
 ```
+
+### Flujo de datos
+
+![Pipeline de datos](docs/pipeline.png)
+
+Cada proceso es una función de `src/` y deja una capa de datos en disco (`raw` → `processed` →
+`interim` → `final`), así que cualquier etapa se puede revisar o repetir sin volver a extraer el
+catálogo. Para editar el diagrama, abrir `docs/pipeline.drawio` en draw.io
+([app.diagrams.net](https://app.diagrams.net) o la app de escritorio) y exportarlo de nuevo a
+`docs/pipeline.png`.
 
 ### Reproducir el proyecto
 
