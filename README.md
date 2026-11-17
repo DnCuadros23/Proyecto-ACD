@@ -61,8 +61,13 @@ Proyecto-ACD/
 │   ├── reference/                         # dim_categoria.csv, dim_marca.csv
 │   └── plazavea.db                        # mismo dataset final, en SQLite
 └── docs/
+    ├── informe_parte1.pdf                 # informe de la Parte I
+    ├── informe_parte2.pdf                 # informe de la Parte II
+    ├── diccionario_datos_inicial.pdf      # diccionario del dataset inicial (12 variables)
+    ├── diccionario_datos_final.pdf        # diccionario del dataset final (23 variables)
     ├── bitacora_decisiones.csv            # cada decisión técnica, con su justificación
     ├── cifras_oficiales.csv               # cifras que se citan en el informe
+    ├── evidencia_vendedor.csv             # verificación manual de la marca GENÉRICO
     ├── marca_mas_economica.csv            # marca más barata por tipo de producto
     └── figures/                           # figuras del análisis (f3_* descuentos, f4_* marcas y Oh!)
 ```
