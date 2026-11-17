@@ -63,8 +63,6 @@ Proyecto-ACD/
 └── docs/
     ├── bitacora_decisiones.csv            # cada decisión técnica, con su justificación
     ├── cifras_oficiales.csv               # cifras que se citan en el informe
-    ├── diapositivas_p3.md                 # contenido para las diapositivas del análisis
-    ├── diapositivas_p4.md                 # diapositivas de marcas y tarjeta Oh!
     ├── marca_mas_economica.csv            # marca más barata por tipo de producto
     └── figures/                           # figuras del análisis (f3_* descuentos, f4_* marcas y Oh!)
 ```
@@ -99,5 +97,5 @@ La última parte de `notebooks/Proyecto_Final.ipynb` responde los objetivos 5 y 
 - **Objetivo 6 — tarjeta Oh!.** Tasa y participación de los precios exclusivos Oh! por categoría
   y macro_grupo, y su relación con las ofertas normales.
 
-Las funciones están en `src/comparacion.py`; las figuras en `docs/figures/f4_*.png` y el
-contenido para diapositivas en `docs/diapositivas_p4.md`. No cambia el dataset final.
+Las funciones están en `src/comparacion.py` y las figuras en `docs/figures/f4_*.png`. No cambia
+el dataset final.
