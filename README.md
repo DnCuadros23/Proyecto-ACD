@@ -71,6 +71,7 @@ Proyecto-ACD/
     ├── marca_mas_economica.csv            # marca más barata por tipo de producto
     ├── pipeline.drawio                    # diagrama del pipeline (fuente editable en draw.io)
     ├── pipeline.png                       # el mismo diagrama exportado
+    ├── presentacion_parte2.pptx           # diapositivas de la exposición final
     └── figures/                           # figuras del análisis (f3_* descuentos, f4_* marcas y Oh!)
 ```
 
